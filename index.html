@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div id="top">
+      <div id="score">Score: 0 to 0</div>
+      <div id="this-round"></div>  
+      <div id="final-result"></div>  
+    </div>
+    <div id="container">
+
+      <div class="btncontainer">
+        <button id="rock">
+          <img src="imgs/rock.jpg">
+          <div class="label">Rock</div>
+        </button>
+      </div>
+     
+      <div class="btncontainer">
+        <button id="paper">
+          <img src="imgs/paper.jpg">
+          <div class="label">Paper</div>
+        </button>
+      </div>
+     
+      <div class="btncontainer">
+        <button id="scissors">
+          <img src="imgs/scissors.jpg">
+          <div class="label">Scissors</div>
+        </button>
+      </div>
+     
+
+    </div>
+   
 	<script src="script.js"></script>
   </body>
 </html>
